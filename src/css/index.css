@@ -58,16 +58,13 @@ abbr[title]{border-bottom:none;/* 1 */text-decoration:underline;/* 2 */-webkit-t
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-b,
-strong{font-weight:bolder;}
+b,strong{font-weight:bolder;}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-code,
-kbd,
-samp{font-family:monospace,monospace;/* 1 */font-size:1em;/* 2 */}
+code,kbd,samp{font-family:monospace,monospace;/* 1 */font-size:1em;/* 2 */}
 
 /**
  * Add the correct font size in all browsers.
@@ -78,8 +75,7 @@ small{font-size:80%;}
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-sub,
-sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 sub{bottom:-0.25em;}
 sup{top:-0.5em;}
 
@@ -98,49 +94,34 @@ img{border-style:none;}
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-button,
-input,
-optgroup,
-select,
-textarea{font-family:inherit;/* 1 */font-size:100%;/* 1 */line-height:1.15;/* 1 */margin:0;/* 2 */}
+button,input,optgroup,select,textarea{font-family:inherit;/* 1 */font-size:100%;/* 1 */line-height:1.15;/* 1 */margin:0;/* 2 */}
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-button,
-input{  /* 1 */overflow:visible;}
+button,input{  /* 1 */overflow:visible;}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-button,
-select{  /* 1 */text-transform:none;}
+button,select{  /* 1 */text-transform:none;}
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"]{-webkit-appearance:button;}
+button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button;}
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner{border-style:none;padding:0;}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0;}
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring{outline:1px dotted ButtonText;}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText;}
 
 /**
  * Correct the padding in Firefox.
@@ -169,14 +150,12 @@ textarea{overflow:auto;}
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"]{box-sizing:border-box;/* 1 */padding:0;/* 2 */}
+[type="checkbox"],[type="radio"]{box-sizing:border-box;/* 1 */padding:0;/* 2 */}
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button{height:auto;}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto;}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -220,11 +199,9 @@ template{display:none;}
  * Add the correct display in IE 10.
  */
 [hidden]{display:none;}
-html,
-body{font-family:"Avenir Next",system-ui,"Helvetica Neue",sans-serif;background-color:#212121;}
+html,body{font-family:"Avenir Next",system-ui,"Helvetica Neue",sans-serif;background-color:#212121;}
 @media (prefers-color-scheme:light){
-  html,
-  body{background-color:#fcfcfc;}
+  html,body{background-color:#fcfcfc;}
 }
 .body-wrapper{padding:1em;margin:0 auto;width:70%;background-color:#212121;}
 @media (max-width:1300px){
@@ -244,29 +221,26 @@ body{font-family:"Avenir Next",system-ui,"Helvetica Neue",sans-serif;background-
 .second{margin-top:-40px;}
 .color-changer{text-align:center;-webkit-animation:colorchanger 30s infinite;animation:colorchanger 30s infinite;margin-top:-30px;}
 @-webkit-keyframes colorchanger{
-    0%,
-    100%{color:#21c900;}
-    50%{color:#178f00;}
+  0%,100%{color:#21c900;}
+  50%{color:#178f00;}
 }
 @keyframes colorchanger{
-    0%,
-    100%{color:#21c900;}
-    50%{color:#178f00;}
+  0%,100%{color:#21c900;}
+  50%{color:#178f00;}
 }
 .project{background-color:#6b6b6b;padding:15px 25px;border-radius:15px;}
 .project h3{font-size:30px;font-weight:600;}
 .project h4{font-size:20px;font-weight:400;text-decoration:underline;padding:10px 0;}
-.project h4 a,
-.project h4 a:visited{color:#424242;text-decoration:underline;transition-duration:0.5s;}
-.project h4 a:hover,
-.project h4 a:visited:hover{color:#0746b3;}
+.project h4 a,.project h4 a:visited{color:#424242;text-decoration:underline;transition-duration:0.5s;}
+.project h4 a:hover,.project h4 a:visited:hover{color:#0746b3;}
 .project p{padding:5px 0;}
 .project p a{transition-duration:0.5s;}
 @media (prefers-color-scheme:light){
   .project{background-color:#ddd;}
 }
 @media (prefers-color-scheme:dark){
-  .project h3,
-  .project h4,
-  .project p {color:#fff;}
+  .project h3,.project h4,.project p{color:#fff;}
+  a{color:#7ae0ff;}
+  .project h4 a,.project h4 a:visited{color:#ccc;}
+  .project h4 a:hover,.project h4 a:visited:hover{color:#0015b3;}
 }
