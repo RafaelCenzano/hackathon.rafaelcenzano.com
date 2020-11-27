@@ -240,8 +240,8 @@ html,body{font-family:"Avenir Next",system-ui,"Helvetica Neue",sans-serif;backgr
 }
 @media (prefers-color-scheme:dark){
   .project h3,.project h4,.project p{color:#fff;}
-  a, a:visited{color:#7ae0ff;}
-  a:hover, a:visited:hover{color:#00b7ff;}
+  a,a:visited{color:#7ae0ff;}
+  a:hover,a:visited:hover{color:#00b7ff;}
   .project h4 a,.project h4 a:visited{color:#ccc;}
   .project h4 a:hover,.project h4 a:visited:hover{color:#0015b3;}
 }
